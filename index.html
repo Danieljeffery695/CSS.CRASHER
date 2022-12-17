@@ -3,30 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <body>
-        <div>
-</div>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CatInter</title>
+</head>
 <body>
-</body>
-<section id="Home">
-    <h1>Home</h1>
-    <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa possimus qui corporis, itaque perferendis vel distinctio quia ea nulla?
-    <a href="#info">Go to info</a>    
-    </section>
-</section id="info">
-<h1>Info</h1>
-<p class="red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis porro et impedit ex exercitationem sapiente accusamus expedita dolore non sunt?
-    <a href="#footer">Go to footer</a>
-<section>
-<section id="footer">
-    <h1>Footer</h1>
-    <p  class="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi delectus libero maxime laboriosam eaque, soluta omnis similique consequatur repudiandae quibusdam!</p>
-<a href="#Home">Go to Home</a>    
+    <main>
+        <h1>Catphotoapp</h1>
+        <section>
+            <h2>Cat photos</h2>
+            <!--TODO: Add link to cat photos-->
+            <p>Click here to view more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a></p>
+            <a href="https://freecatphotoapp.com"> </a><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg">
+        </section>
+        <section>
+            <h2>Cat Lists</h2>
+            <h3>Things cat love</h3>
+            <ul>
+<li>cat nip</li>
+<li>laser pointers</li>
+<li>lasagna</li>
+</ul>
+<figure>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+<figcaption>Cats <em>love</em> lasagna</figcaption>
+</figure>
+<h3>Top 3 things cats hate:</h3>
+<ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+</ol>
+<figure>
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field">
+<figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+</figure>
 </section>
-</html>
-<body>
-    
+<section>
+    <h2>Cat Form</h2>
+    <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <fieldset>
+<legend>Is your cat an indoor or an outdoor cats</legend>
+      <label><input id="indoor" type="radio" checked name="indoor-outdoor" value="inddor"> indoor</label>
+      <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+    </fieldset>
+    <fieldset>
+        <legend>what is your cat's personality</legend>
+        <input id="loving" type="checkbox" checked name="personality" value="loving"> <label for="loving"></label>
+        <input id="lazy" type="checkbox" name="personality" value="lazy"><label for="lazy">lazy</label>
+        <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+    </fieldset>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+<button type="submit">submit</button>
+    </form>
+</section>
+ <main>   
+<footer>
+    <p>
+        No Copyright - <a href="https://www.freecatphoto.org"></a> By mickie FC
+    </p>
+</footer>
 </body>
+</html>
